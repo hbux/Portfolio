@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
 
 :root {
-    --black: #212529;
+    --main-black: #212529;
     --white: #FFF;
-    --light: #F8F9FA;
+    --off-white: #F8F9FA;
+
     --blue: #0D6EFD;
     --blue-hover: #0B60DD;
     --blue-active: #0A3E8B;
-    --link-active: #6C757D;
-    --hover: #E2E2E2;
-    --active: #C4C4C4;
-    --active-main: #2A2E33;
-    --active-active: #373B3E;
+
+    --light-grey: #E2E2E2;
+    --grey: #6C757D;
+
+    --active-light: #C4C4C4;
+    --active-dark: #2A2E33;
+    --active-active-dark: #373B3E;
 }
 
 *, ::after, ::before {
@@ -28,17 +31,18 @@ a {
     text-decoration: none;
 }
 
-.active {
-    background-color: var(--hover) !important;
+.active-mobile {
+    background-color: var(--light-grey) !important;
+    color: var(--main-black) !important;
 }
 
 .active-main {
-    background-color: var(--active-main) !important;
+    background-color: var(--active-dark) !important;
     color: var(--white) !important;
 }
 
 .header-top {
-    background-color: var(--light);
+    background-color: var(--off-white);
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -58,24 +62,25 @@ a {
 }
 
 .icon-link-btn:hover {
-    background-color: var(--hover);
+    background-color: var(--light-grey);
 }
 
 .icon-link-btn:active {
-    background-color: var(--active);
+    background-color: var(--active-light);
 }
 
 .icon-link-btn svg {
     vertical-align: middle;
     width: 20px;
     height: auto;
+    color: var(--main-black);
 }
 
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--black);
+    background-color: var(--main-black);
     color: var(--secondary);
     height: 80px;
     padding: 5px 10px;
@@ -105,7 +110,7 @@ a {
     align-items: center;
     gap: 5px;
     border-radius: 5px;
-    color: var(--link-active);
+    color: var(--grey);
     font-size: 14px;
     padding: 15px 10px;
     cursor: pointer;
@@ -113,11 +118,11 @@ a {
 }
 
 .nav-link:hover {
-    background-color: var(--active-main);
+    background-color: var(--active-dark);
 }
 
 .nav-link:active {
-    background-color: var(--active-active);
+    background-color: var(--active-active-dark);
 }
 
 .nav-link svg {
@@ -144,7 +149,7 @@ a {
 }
 
 .mobile-nav-burger {
-    background-color: var(--black);
+    background-color: var(--main-black);
     border-radius: 5px;
     padding: 5px 10px;
     transition: 0.2s;
@@ -152,7 +157,7 @@ a {
 }
 
 .mobile-nav-burger:active {
-    background-color: var(--link-active);
+    background-color: var(--grey);
 }
 
 .mobile-nav-burger > div {
@@ -188,7 +193,7 @@ a {
 }
 
 .mobile-top {
-    background-color: var(--black);
+    background-color: var(--main-black);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -205,6 +210,7 @@ a {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    color: var(--grey);
 }
 
 .mobile-link svg {
@@ -212,11 +218,11 @@ a {
 }
 
 .mobile-link:hover {
-    background-color: var(--hover);
+    background-color: var(--light-grey);
 }
 
 .mobile-link:active {
-    background-color: var(--active);
+    background-color: var(--active-light);
 }
 
 .mobile-nav-links {
