@@ -209,6 +209,19 @@ main {
     display: none;
 }
 
+.left-col {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.left-col a {
+    justify-self: center;
+    margin-top: 10px;
+}
+
 @media only screen and (min-width: 768px) {
     .mobile-nav-burger {
         display: none;
