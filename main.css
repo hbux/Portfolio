@@ -84,6 +84,22 @@ a {
     gap: 5px;
 }
 
+.mobile-nav-burger {
+    background-color: var(--main-black);
+    border-radius: 5px;
+    padding: 8px 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.mobile-nav-burger:hover {
+    background-color: var(--active-dark);
+}
+
+.mobile-nav-burger:active {
+    background-color: var(--active-active-dark);
+}
+
 .main-link {
     background-color: var(--main-black);
     color: var(--white);
@@ -140,18 +156,6 @@ a {
     background-color: var(--active-active-dark);
 }
 
-.mobile-nav-burger {
-    background-color: var(--main-black);
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.mobile-nav-burger:active {
-    background-color: var(--grey);
-}
-
 .mobile-nav-burger > div {
     width: 25px;
     height: 3px;
@@ -162,7 +166,7 @@ a {
 
 .mobile-nav-background {
     display: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -191,6 +195,48 @@ a {
     align-items: center;
     height: 50px;
     padding: 5px 10px;
+}
+
+.mobile-links {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 50px;
+    gap: 10px;
+    align-items: center;
+}
+
+.mobile-link {
+    background-color: var(--white);
+    color: var(--main-black);
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+.primary-link {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.primary-link:hover {
+    background-color: var(--blue-hover);
+}
+
+.primary-link:active {
+    background-color: var(--blue-active);
+}
+
+.secondary-link {
+    background-color: var(--off-white);
+    color: var(--main-black);
+}
+
+.secondary-link:hover {
+    background-color: var(--light-grey);
+}
+
+.secondary-link:active {
+    background-color: var(--active-light);
 }
 
 main {
