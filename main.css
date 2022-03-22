@@ -207,11 +207,18 @@ a {
 }
 
 .mobile-link {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
     background-color: var(--white);
     color: var(--main-black);
     padding: 13px 20px;
     border-radius: 5px;
     transition: 0.2s;
+}
+
+.mobile-link svg {
+    justify-self: center;
 }
 
 .primary-link {
@@ -288,6 +295,42 @@ main {
     margin-top: 10px;
 }
 
+table {
+    margin-top: 20px;
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    border-spacing: 0;
+    width: 100%;
+    text-align: left;
+    cursor: default;
+    border-radius: 5px;
+}
+
+th {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--light-grey);
+    background-color: var(--off-white);
+}
+
+td {
+    padding: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: var(--off-white);
+}
+
+th:last-child, td:last-child {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .mobile-nav-burger {
         display: none;
@@ -325,5 +368,9 @@ main {
         display: block;
         margin: 0 auto;
         border-radius: 50%;
+    }
+
+    th:last-child, td:last-child {
+        display: block;
     }
 }
