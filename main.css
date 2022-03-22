@@ -103,6 +103,11 @@ a {
     background-color: var(--active-active-dark);
 }
 
+.header-cta {
+    display: none;
+    gap: 10px;
+}
+
 .main-cta {
     background-color: var(--blue);
     color: var(--white);
@@ -114,12 +119,25 @@ a {
     transition: 0.2s;
 }
 
+.secondary-cta {
+    background-color: var(--main-black);
+    color: var(--white);
+}
+
 .main-cta:hover {
     background-color: var(--blue-hover);
 }
 
+.secondary-cta:hover {
+    background-color: var(--active-dark);
+}
+
 .main-cta:active {
     background-color: var(--blue-active);
+}
+
+.secondary-cta:active {
+    background-color: var(--active-active-dark);
 }
 
 .mobile-nav-burger {
@@ -182,6 +200,7 @@ main {
 .component-container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-auto-rows: auto;
     gap: 30px;
     padding: 20px 10px;
@@ -225,6 +244,10 @@ main {
 @media only screen and (min-width: 768px) {
     .mobile-nav-burger {
         display: none;
+    }
+
+    .header-cta {
+        display: flex;
     }
 
     .main-cta {
