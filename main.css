@@ -331,12 +331,103 @@ th:last-child, td:last-child {
     display: none;
 }
 
-.projects-wrapper {
+.projects {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 395px;
+    grid-auto-rows: auto;
     gap: 10px;
     margin-top: 20px;
+}
+
+.project-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 395px;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: #D6E7FF;
+    display: block;
+    height: 475px;
+    border-radius: 5px;
+    border: 1px solid var(--light-grey);
+}
+
+.project-banner {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid var(--light-grey);
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--light-grey);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.project-wrapper:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: var(--main-black);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.project-header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.project-links {
+    display: flex;
+}
+
+.project-details {
+    padding: 10px 30px 0 30px;
+}
+
+.project-details ul {
+    padding: 10px 0 0 10px;
+}
+
+.project-details ul li {
+    padding: 5px 0;
+}
+
+.project-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -386,7 +477,19 @@ th:last-child, td:last-child {
         display: block;
     }
 
-    .projects-wrapper {
+    .projects {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .project-header {
+        font-size: 16px;
+    }
+
+    .project-details ul {
+        padding: 20px 0 0 10px;
+    }
+
+    .project-details ul li {
+        padding: 2px;
     }
 }
