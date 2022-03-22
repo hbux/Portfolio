@@ -347,7 +347,7 @@ th:last-child, td:last-child {
 }
 
 .project {
-    background-color: #D6E7FF;
+    background-color: lightskyblue;
     display: block;
     height: 475px;
     border-radius: 5px;
@@ -422,12 +422,6 @@ th:last-child, td:last-child {
     align-items: center;
     justify-content: center;
     padding: 30px;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
 }
 
 @media only screen and (min-width: 768px) {
