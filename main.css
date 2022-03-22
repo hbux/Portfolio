@@ -211,6 +211,7 @@ a {
     color: var(--main-black);
     padding: 13px 20px;
     border-radius: 5px;
+    transition: 0.2s;
 }
 
 .primary-link {
