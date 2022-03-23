@@ -347,11 +347,32 @@ th:last-child, td:last-child {
 }
 
 .project {
-    background-color: lightskyblue;
     display: block;
     height: 475px;
     border-radius: 5px;
     border: 1px solid var(--light-grey);
+}
+
+#elanco {
+    background-color: #ccced1;
+    /* background-image: url("images/main_desktop.png"); */    
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#notes {
+    background-color: rgb(198, 219, 252);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#timco {
+    background-color: rgb(249, 250, 221);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
 }
 
 .project-banner {
@@ -366,6 +387,7 @@ th:last-child, td:last-child {
 
 .overlay {
     position: absolute;
+    opacity: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -380,6 +402,7 @@ th:last-child, td:last-child {
 
 .project-wrapper:hover .overlay {
     height: 100%;
+    opacity: 1;
 }
 
 .text {
