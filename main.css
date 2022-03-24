@@ -354,7 +354,7 @@ th:last-child, td:last-child {
 }
 
 #elanco {
-    background-color: #ccced1;
+    background-color: var(--white);
     /* background-image: url("images/main_desktop.png"); */    
     background-repeat: no-repeat;
     background-size: 70%;
@@ -362,14 +362,14 @@ th:last-child, td:last-child {
 }
 
 #notes {
-    background-color: rgb(198, 219, 252);
+    background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 65%;
     background-position: center;
 }
 
 #timco {
-    background-color: rgb(249, 250, 221);
+    background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 65%;
     background-position: center;
