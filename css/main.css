@@ -31,14 +31,19 @@ a {
     text-decoration: none;
 }
 
-.header-top {
+.header-top-container {
     background-color: var(--off-white);
+}
+
+.header-top {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     height: 50px;
     padding: 5px 10px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .icon-link-btn {
@@ -66,15 +71,20 @@ a {
     color: var(--main-black);
 }
 
+.header-main-container {
+    background-color: var(--main-black);
+}
+
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main-black);
     color: var(--secondary);
     height: 80px;
     padding: 5px 10px;
     font-size: 16px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .header-container {
