@@ -31,6 +31,22 @@ a {
     text-decoration: none;
 }
 
+.github, .youtube, .linkedin {
+    transition: 0.2s;
+}
+
+.github:hover svg {
+    fill: #4e277b !important;
+}
+
+.youtube:hover svg {
+    fill: rgba(255, 0, 0);
+}
+
+.linkedin:hover svg {
+    fill: #2977c9;
+}
+
 .header-top-container {
     background-color: var(--off-white);
 }
