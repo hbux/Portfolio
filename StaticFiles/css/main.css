@@ -33,22 +33,6 @@ a {
     text-decoration: none;
 }
 
-.github svg, .youtube svg, .linkedin svg {
-    transition: 0.2s;
-}
-
-.github:hover svg {
-    fill: #4e277b;
-}
-
-.youtube:hover svg {
-    fill: rgba(255, 0, 0);
-}
-
-.linkedin:hover svg {
-    fill: #2977c9;
-}
-
 .header-top-container {
     background-color: var(--off-white);
 }
@@ -87,6 +71,22 @@ a {
     width: 20px;
     height: auto;
     color: var(--main-black);
+}
+
+.github svg, .youtube svg, .linkedin svg {
+    transition: 0.2s;
+}
+
+.github:hover svg {
+    fill: #4e277b;
+}
+
+.youtube:hover svg {
+    fill: rgba(255, 0, 0);
+}
+
+.linkedin:hover svg {
+    fill: #2977c9;
 }
 
 .header-main-container {
@@ -473,6 +473,45 @@ th:last-child, td:last-child {
     align-items: center;
     justify-content: center;
     padding: 30px;
+}
+
+.main-cta-info {
+    width: 162px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px 0;
+    cursor: default;
+    transition: 0.2s;
+}
+
+.project-work-in-progress {
+    background-color: var(--white);
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.project-work-in-progress:hover {
+    background-color: #ffc107;
+    color: black;
+}
+
+.project-work-in-progress:active {
+    background-color: #fdd65f;
+}
+
+.project-complete {
+    background-color: var(--white);
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+.project-complete:hover {
+    background-color: #198754;
+    color: var(--white);
+}
+
+.project-complete:active {
+    background-color: #146b43;
 }
 
 .modal {
