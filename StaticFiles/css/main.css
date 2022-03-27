@@ -31,12 +31,12 @@ a {
     text-decoration: none;
 }
 
-.github, .youtube, .linkedin {
+.github svg, .youtube svg, .linkedin svg {
     transition: 0.2s;
 }
 
 .github:hover svg {
-    fill: #4e277b !important;
+    fill: #4e277b;
 }
 
 .youtube:hover svg {
