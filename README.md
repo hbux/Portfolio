@@ -21,7 +21,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum co
 ### Project Structure
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum convallis enim, vitae interdum metus viverra ut. Vestibulum est leo, placerat ut viverra id, blandit suscipit leo.
 * **PortfolioUI**: This is the WebAssembly project which contains the user interface pages, components, user interface models and classes.
-* **PortfolioAPI**: This is the WebAPI project which allows the WebAssembly project to send emails.
 * **Documentation**: This folder contains the user interface mockups and other information relating to the project.
 
 ### WebAssembly
