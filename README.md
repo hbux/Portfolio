@@ -3,9 +3,7 @@
 2. [System design](#system-design)
    1. [Project structure](#project-structure)
    2. [WebAssembly](#webassembly)
-   3. [WebAPI](#webapi)
 3. [Tools and frameworks used](#tools-and-frameworks-used)
-4. [Resources and documentation links](#resources-and-documentation-links)
 5. [Sample code](#sample-code)
 
 ---
@@ -29,25 +27,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum co
 ### WebAssembly
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum convallis enim, vitae interdum metus viverra ut. Vestibulum est leo, placerat ut viverra id, blandit suscipit leo.
 
-### WebAPI
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum convallis enim, vitae interdum metus viverra ut. Vestibulum est leo, placerat ut viverra id, blandit suscipit leo.
-
 ---
 
 ## Tools and Frameworks Used
 * Blazor WebAssembly
-* WebAPI
-* SendGrid API
-
----
-
-## Resources and Documentation Links
-#### Microsoft Documentation
-* [Publish WebAPI to Azure API Management](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0#set-up)
-
-#### Other Links
-* [Using WebAPI to Send Emails with WebAssembly](https://reitter.medium.com/blazor-webassembly-application-that-sends-email-using-sendgrid-ae38dd8de964)
-* [GitHub Sample Project](https://github.com/strykerin/Blazor-WebAssembly-Sample)
+* FormSpree for sending emails
 
 ---
 
