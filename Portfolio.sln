@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioUI", "PortfolioUI\PortfolioUI.csproj", "{81F90863-5C6C-4387-8D3B-889290E6A0BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioUI", "PortfolioUI\PortfolioUI.csproj", "{2E7A72D4-437E-464F-99B2-7DAB9F049B57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81F90863-5C6C-4387-8D3B-889290E6A0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81F90863-5C6C-4387-8D3B-889290E6A0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81F90863-5C6C-4387-8D3B-889290E6A0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81F90863-5C6C-4387-8D3B-889290E6A0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7A72D4-437E-464F-99B2-7DAB9F049B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7A72D4-437E-464F-99B2-7DAB9F049B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7A72D4-437E-464F-99B2-7DAB9F049B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7A72D4-437E-464F-99B2-7DAB9F049B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3A541672-0C48-4861-B59E-6D684AC2D967}
+		SolutionGuid = {653787D8-A482-44E8-BE05-66A45E09ABB8}
 	EndGlobalSection
 EndGlobal
