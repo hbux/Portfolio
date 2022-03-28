@@ -463,22 +463,23 @@ th:last-child, td:last-child {
 }
 
 #elanco {
-    background-color: var(--white);
-    /* background-image: url("images/main_desktop.png"); */    
+    background-color: rgb(194, 210, 221);
+    background-image: url("../images/elanco.png"); 
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 80%;
     background-position: center;
 }
 
 #notes {
-    background-color: var(--white);
+    background-color: rgb(197, 219, 198);
+    background-image: url("../images/notes.png"); 
     background-repeat: no-repeat;
-    background-size: 65%;
+    background-size: 80%;
     background-position: center;
 }
 
 #timco {
-    background-color: var(--white);
+    background-color: rgb(219, 218, 197);
     background-repeat: no-repeat;
     background-size: 65%;
     background-position: center;
