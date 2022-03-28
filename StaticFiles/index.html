@@ -81,7 +81,7 @@
                             <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
                             <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
                         </svg>
-                        My Resume
+                        My resume
                     </a>
                     <a href="#" class="mobile-link primary-link" onclick="toggleContactModal()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
@@ -276,22 +276,22 @@
                 </div>
                 
             </div>
-            <form class="modal-form">
+            <form class="modal-form" target="_blank" action="https://formspree.io/f/mgedlaqn" method="POST">
                 <div class="form-field-top">
                     <div class="form-field">
                         <label for="name">Name</label>
-                        <input id="name" />
+                        <input name="name" id="name" />
                         <!-- <span class="validation-message">Invalid message</span> -->
                     </div>
                     <div class="form-field">
                         <label for="email">Email</label>
-                        <input id="email" />
+                        <input name="email" id="email" />
                         <!-- <span class="validation-message">Invalid message</span> -->
                     </div>
                 </div>
                 <div class="form-field">
                     <label for="message">Message</label>
-                    <textarea id="message"></textarea>
+                    <textarea name="message" id="message"></textarea>
                     <!-- <span class="validation-message">Invalid message</span> -->
                 </div>
                 <div class="modal-send">
