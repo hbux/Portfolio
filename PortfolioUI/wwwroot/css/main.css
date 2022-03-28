@@ -239,6 +239,7 @@ a {
     transition: 0.2s;
     cursor: pointer;
     border-radius: 5px;
+    color: black;
 }
 
 .dropdown-content a:hover {
@@ -480,8 +481,9 @@ th:last-child, td:last-child {
 
 #timco {
     background-color: rgb(219, 218, 197);
+    background-image: url("../images/timco.png");
     background-repeat: no-repeat;
-    background-size: 65%;
+    background-size: 80%;
     background-position: center;
 }
 
