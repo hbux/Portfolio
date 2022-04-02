@@ -2,6 +2,10 @@ function openMobileNav() {
     document.querySelector(".mobile-nav-background").style.display = "block";
 }
 
+function closeMobileNav() {
+    document.querySelector(".mobile-nav-background").style.display = "none";
+}
+
 function toggleContactModal() {
     if (document.querySelector(".modal").style.display === "flex") {
         document.querySelector(".modal").style.display = "none";
