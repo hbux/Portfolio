@@ -10,7 +10,6 @@
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    <!-- header -->
     <header>
         <div class="header-top-container">
             <div class="header-top">
@@ -34,7 +33,7 @@
                         <div></div>
                         <div></div>
                     </div>
-                    <a href="https://hbux.github.io/Portfolio/" class="main-link">
+                    <a href="/" class="main-link">
                         <p>Harry Buxton</p>
                     </a>
                 </div>
@@ -69,18 +68,11 @@
                 </div>
             </div>
         </div>
-        <!-- mobile -->
         <div class="mobile-nav-background">
             <div class="mobile-nav">
                 <div class="mobile-top">
-                    <a href="https://hbux.github.io/Portfolio/" class="main-link">
+                    <a href="/" class="main-link">
                         <p>Harry Buxton</p>
-                    </a>
-                    <a class="icon-link-btn mobile-link-btn" onclick="closeMobileNav()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
-                            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
-                        </svg>
                     </a>
                 </div>
                 <div class="mobile-links">
@@ -101,7 +93,6 @@
             </div>
         </div>
     </header>
-    <!-- main -->
     <main>
         <div class="component-container">
             <div class="hero-container">
@@ -142,10 +133,10 @@
                 </table>
             </div>
             <div class="projects-container">
-                <h2>Projects</h2>
+                <h2>Featured Projects</h2>
                 <p>These projects demonstrate my ability to develop complex applications using a variety of technologies. Hover over each card to see more information.</p>
                 <div class="projects">
-                    <div class="project-wrapper" onclick="">
+                    <div class="project-wrapper">
                         <div class="project" id="elanco">
                             <div class="project-banner">
                                 <p>CLIENT BASED PROJECT</p>
@@ -185,7 +176,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="project-wrapper" onclick="">
+                    <div class="project-wrapper">
                         <div class="project" id="timco">
                             <div class="project-banner">
                                 <p>PERSONAL PROJECT</p>
@@ -225,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="project-wrapper" onclick="">
+                    <div class="project-wrapper">
                         <div class="project" id="notes">
                             <div class="project-banner">
                                 <p>PERSONAL PROJECT</p>
@@ -281,24 +272,25 @@
                             <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
                         </svg>
                     </a>
-                </div> 
+                </div>
+                    
             </div>
             <form class="modal-form" target="_blank" action="https://formspree.io/f/mgedlaqn" method="POST">
                 <div class="form-field-top">
                     <div class="form-field">
                         <label for="name">Name</label>
-                        <input name="name" id="name" required />
+                        <input name="name" id="name" />
                         <!-- <span class="validation-message">Invalid message</span> -->
                     </div>
                     <div class="form-field">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required />
+                        <input name="email" id="email" />
                         <!-- <span class="validation-message">Invalid message</span> -->
                     </div>
                 </div>
                 <div class="form-field">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" required></textarea>
+                    <textarea name="message" id="message"></textarea>
                     <!-- <span class="validation-message">Invalid message</span> -->
                 </div>
                 <div class="modal-send">
